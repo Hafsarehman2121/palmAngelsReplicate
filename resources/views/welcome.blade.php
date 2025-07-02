@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Palm Angels | Home</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/logo3.png">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Top Red Notification Bar -->
+   
+        <div class="top-banner">
+        <div class="banner-content justify-content-between align-items-center">
+        
+            <p class="message" id="message" style="margin-top:5px;">Enjoy Free Shipping!</p>
+        
+            <i class="ti-close close-btn" onclick="this.parentElement.parentElement.style.display='none';"></i>
+        </div>
+        </div>
+
+         <div class="catagories-side-menu">
+        <!-- Close Icon -->
+        <div id="sideMenuClose">
+            <i class="ti-close"></i>
+        </div>
+        <!--  Side Nav  -->
+        <div class="nav-side-menu">
+            <div class="menu-list">
+                <h6>Categories</h6>
+                <ul id="menu-content" class="menu-content collapse out">
+                    <!-- Single Item -->
+                    <li data-toggle="collapse" data-target="#women" class="collapsed active">
+                        <a href="#">Woman wear <span class="arrow"></span></a>
+                        <ul class="sub-menu collapse" id="women">
+                            <li><a href="#">Midi Dresses</a></li>
+                            <li><a href="#">Maxi Dresses</a></li>
+                            <li><a href="#">Prom Dresses</a></li>
+                            <li><a href="#">Little Black Dresses</a></li>
+                            <li><a href="#">Mini Dresses</a></li>
+                        </ul>
+                    </li>
+                    <!-- Single Item -->
+                    <li data-toggle="collapse" data-target="#man" class="collapsed">
+                        <a href="#">Man Wear <span class="arrow"></span></a>
+                        <ul class="sub-menu collapse" id="man">
+                            <li><a href="#">Man Dresses</a></li>
+                            <li><a href="#">Man Black Dresses</a></li>
+                            <li><a href="#">Man Mini Dresses</a></li>
+                        </ul>
+                    </li>
+                    <!-- Single Item -->
+                    <li data-toggle="collapse" data-target="#kids" class="collapsed">
+                        <a href="#">Children <span class="arrow"></span></a>
+                        <ul class="sub-menu collapse" id="kids">
+                            <li><a href="#">Children Dresses</a></li>
+                            <li><a href="#">Mini Dresses</a></li>
+                        </ul>
+                    </li>
+                    <!-- Single Item -->
+                    <li data-toggle="collapse" data-target="#bags" class="collapsed">
+                        <a href="#">Bags &amp; Purses <span class="arrow"></span></a>
+                        <ul class="sub-menu collapse" id="bags">
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Purses</a></li>
+                        </ul>
+                    </li>
+                    <!-- Single Item -->
+                    <li data-toggle="collapse" data-target="#eyewear" class="collapsed">
+                        <a href="#">Eyewear <span class="arrow"></span></a>
+                        <ul class="sub-menu collapse" id="eyewear">
+                            <li><a href="#">Eyewear Style 1</a></li>
+                            <li><a href="#">Eyewear Style 2</a></li>
+                            <li><a href="#">Eyewear Style 3</a></li>
+                        </ul>
+                    </li>
+                    <!-- Single Item -->
+                    <li data-toggle="collapse" data-target="#footwear" class="collapsed">
+                        <a href="#">Footwear <span class="arrow"></span></a>
+                        <ul class="sub-menu collapse" id="footwear">
+                            <li><a href="#">Footwear 1</a></li>
+                            <li><a href="#">Footwear 2</a></li>
+                            <li><a href="#">Footwear 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div id="wrapper">
+     <header class="header">
+        <div class="container-fluid">
+            <div class="row inline-block d-flex justify-content-between align-items-center flex-wrap">
+                <div class="col-xl-3 col-lg-2">
+                    <div class="header__logo inline-block" >
+                        <img src="img/logo1.png" alt="Palm Angels Logo" style="height: 150px; max-width: 200px;">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <nav class="header__menu">
+                        <ul>
+                           
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__right">
+                        <div class="header__right__auth">
+                             <ul class="header__right__widget">
+                            <li><span class="icon_search search-switch"></span></li>
+                            <li><a href="#" ><span class="ti-heart"></span>
+                                <div class="tip">2</div>
+                            </a></li>
+                            <li><a href="#"><span class="ti-bag"></span>
+                                <div class="tip">2</div>
+                            </a></li>
+                            <li>
+                                 <a href="#" id="sideMenuBtn"><i class="ti-menu" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-12 col-md-12  bottom-100" >
+                    <div class="input-group border-bottom" style="border-bottom: 1px solid grey;">
+                        <span class="input-group-text bg-white border-0 px-2">
+                        <i class="ti-search" style="font-size:20px;"></i>
+                        </span>
+                        <input 
+                        type="text" 
+                        class="form-control border-0 shadow-none px-2" 
+                        placeholder="Search"
+                        aria-label="Search">
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="canvas__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        
+    </header>
+
+
+<!-- ****** Welcome Slides Area Start ****** -->
+<section class="offer_area height-700 section_padding_100 bg-img" style="background-image: url(img/bg-img/bg-5.jpg); margin-top:20px;">
+    <div class="container h-150">
+        <div class="row h-100 align-items-end justify-content-end">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="offer-content-area wow fadeInUp align-items-center" data-wow-delay="1s">
+                    <a><img src="img/white-logo1.png" alt="Palm Angels Logo" ></a>
+                    <h2 style="font-size: 50px;">SUMMER SALES</h2>
+                    
+                    
+                    <a href="#" class="btn karl-btn mt-30">DISCOVER MORE  <i class="ti-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ****** Welcome Slides Area End ****** -->
+
+ <!-- ****** Quick View Modal Area Start ****** -->
+        <div class="modal fade" id="quickview" tabindex="-1" role="dialog" aria-labelledby="quickview" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                    <div class="modal-body">
+                        <div class="quickview_body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-5">
+                                        <div class="quickview_pro_img">
+                                            <img src="img/product-img/product-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <div class="quickview_pro_des">
+                                            <h4 class="title">Boutique Silk Dress</h4>
+                                            <div class="top_seller_product_rating mb-15">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <h5 class="price">$120.99 <span>$130</span></h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?</p>
+                                            <a href="#">View Full Product Details</a>
+                                        </div>
+                                        <!-- Add to Cart Form -->
+                                        <form class="cart" method="post">
+                                            <div class="quantity">
+                                                <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
+
+                                                <input type="number" class="qty-text" id="qty" step="1" min="1" max="12" name="quantity" value="1">
+
+                                                <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                            </div>
+                                            <button type="submit" name="addtocart" value="5" class="cart-submit">Add to cart</button>
+                                            <!-- Wishlist -->
+                                            <div class="modal_pro_wishlist">
+                                                <a href="wishlist.html" target="_blank"><i class="ti-heart"></i></a>
+                                            </div>
+                                            <!-- Compare -->
+                                            <div class="modal_pro_compare">
+                                                <a href="compare.html" target="_blank"><i class="ti-stats-up"></i></a>
+                                            </div>
+                                        </form>
+
+                                        <div class="share_wf mt-30">
+                                            <p>Share With Friend</p>
+                                            <div class="_icon">
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ****** Quick View Modal Area End ****** -->
+
+         <!-- ****** New Arrivals Area Start ****** -->
+        <section class="new_arrivals_area section_padding_100_0 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_heading text-center">
+                            <h2>New Arrivals</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="karl-projects-menu mb-100">
+                <div class="text-center portfolio-menu">
+                    <button class="btn active" data-filter="*">ALL</button>
+                    <button class="btn" data-filter=".women">WOMAN</button>
+                    <button class="btn" data-filter=".man">MAN</button>
+                    <button class="btn" data-filter=".access">ACCESSORIES</button>
+                    <button class="btn" data-filter=".shoes">shoes</button>
+                    <button class="btn" data-filter=".kids">KIDS</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row karl-new-arrivals">
+
+                    <!-- Single gallery Item Start -->
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.2s">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="img/product-img/product-1.jpg" alt="">
+                            <div class="product-quicview">
+                                <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Description -->
+                        <div class="product-description">
+                            <h4 class="product-price">$39.90</h4>
+                            <p>Jeans midi cocktail dress</p>
+                            <!-- Add to Cart -->
+                            <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                        </div>
+                    </div>
+
+                    <!-- Single gallery Item Start -->
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.3s">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="img/product-img/product-2.jpg" alt="">
+                            <div class="product-quicview">
+                                <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Description -->
+                        <div class="product-description">
+                            <h4 class="product-price">$39.90</h4>
+                            <p>Jeans midi cocktail dress</p>
+                            <!-- Add to Cart -->
+                            <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                        </div>
+                    </div>
+
+                    <!-- Single gallery Item Start -->
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item access wow fadeInUpBig" data-wow-delay="0.4s">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="img/product-img/product-3.jpg" alt="">
+                            <div class="product-quicview">
+                                <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Description -->
+                        <div class="product-description">
+                            <h4 class="product-price">$39.90</h4>
+                            <p>Jeans midi cocktail dress</p>
+                            <!-- Add to Cart -->
+                            <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                        </div>
+                    </div>
+
+                    <!-- Single gallery Item Start -->
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item shoes wow fadeInUpBig" data-wow-delay="0.5s">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="img/product-img/product-4.jpg" alt="">
+                            <div class="product-quicview">
+                                <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Description -->
+                        <div class="product-description">
+                            <h4 class="product-price">$39.90</h4>
+                            <p>Jeans midi cocktail dress</p>
+                            <!-- Add to Cart -->
+                            <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                        </div>
+                    </div>
+
+                    <!-- Single gallery Item Start -->
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.6s">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="img/product-img/product-5.jpg" alt="">
+                            <div class="product-quicview">
+                                <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Description -->
+                        <div class="product-description">
+                            <h4 class="product-price">$39.90</h4>
+                            <p>Jeans midi cocktail dress</p>
+                            <!-- Add to Cart -->
+                            <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                        </div>
+                    </div>
+
+                    <!-- Single gallery Item -->
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item kids man wow fadeInUpBig" data-wow-delay="0.7s">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <img src="img/product-img/product-6.jpg" alt="">
+                            <div class="product-quicview">
+                                <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Description -->
+                        <div class="product-description">
+                            <h4 class="product-price">$39.90</h4>
+                            <p>Jeans midi cocktail dress</p>
+                            <!-- Add to Cart -->
+                            <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ****** New Arrivals Area End ****** -->
+
+ <!-- ****** Kids Sale Area Start ****** -->
+        <section class="offer_area height-700 section_padding_100 bg-img" style="background-image: url(img/kids.jpg); margin-top:20px;">
+            <div class="container h-150">
+                <div class="row h-100 align-items-end justify-content-end">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="offer-content-area wow fadeInUp" data-wow-delay="1s">
+                           
+                            <h2 style="font-size: 50px;">KIDS SALES</h2>
+                            
+                           
+                            <a href="#" class="btn karl-btn mt-30">DISCOVER MORE  <i class="ti-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- ****** Kids Sale Area End ****** -->
+ 
+ <!-- ****** Footer Area Start ****** -->
+ <footer class="footer_area"  style="margin-top:100px;">
+           
+            <div class="footer-top">
+                <div class="newsletter">
+                <h2 style="color:white">JOIN OUR COMMUNITY</h2>
+                <p style="color:white">
+                    Sign up for our mailing list and get 15% off your first order.<br>
+                    Join our community and stay up to date with Palm Angels' new arrivals, promotions and events.
+                </p>
+                <div class="email-input">
+                    <input type="email" placeholder="Your Email">
+                    <button>&rsaquo;</button>
+                </div>
+                <div class="checkboxes">
+                    <label><input type="checkbox"> Womenswear</label>
+                    <label><input type="checkbox"> Menswear</label>
+                    <label><input type="checkbox"> Kids</label>
+                </div>
+                <div class="consent">
+                    <label>
+                    <input type="checkbox">
+                    I have read the <a href="#">Privacy Policy</a> and consent to the processing of my personal data for marketing purposes (Newsletters, News and Promotions)
+                    </label>
+                    <label>
+                    <input type="checkbox">
+                    I consent to the collection and processing of my personal data for profiling purposes
+                    </label>
+                </div>
+                </div>
+
+                <div class="footer-links">
+                <div>
+                    <h4>HELP</h4>
+                    <ul>
+                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>LEGAL AREA</h4>
+                    <ul>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="meta-info">
+                    <p><strong>Country:</strong> United Kingdom</p>
+                    <p><strong>Language:</strong> English</p>
+                    <p><strong>Follow us on:</strong></p>
+                    <div class="social-icons">
+                    <i class="ti-instagram"></i>
+                    <i class="ti-close"></i>
+                    <i class="ti-youtube"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright © 2025 Palm Angels™</p>
+                <p>
+                Licensee: Progetto 17 S.r.l. Registered Office: Piazza Arcole, 4 - 20143 Milano, Italy.
+                Company Registration Number: 12228160961<br>
+                Site managed by The Level S.r.l
+                </p>
+            </div>
+
+
+        </footer>
+  <!-- ****** Footer Area End ****** -->
+</div>
+<!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+<script>
+  const messages = [
+    "Enjoy Free Shipping!",
+    "New Arrivals Just Dropped!",
+    "Limited Time Offer!",
+    "Shop the Latest Collection!"
+  ];
+
+  let index = 0;
+  const messageDiv = document.getElementById("message");
+
+  setInterval(() => {
+    index = (index + 1) % messages.length;
+    messageDiv.textContent = messages[index];
+  }, 3000); // 3000 milliseconds = 3 seconds
+</script>
+</body>
+
+</html>

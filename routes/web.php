@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//route to show admin dashboard
 Route::get('/', function () {
-    return view('index');
-});
+    return view('adminDashboard.includes.dashboard');
+})->name('dashboard');
+
+//route to show users list
+ Route::get('users', [Controller::class, 'showUsers'])->name('users');
+
+ //route to show products ist
+Route::get('products', [Controller::class, 'showProducts'])->name('products');
+
+//route to show orders list
+Route::get('orders', [Controller::class, 'showOrders'])->name('orders');
+
+//route to show add product form
+Route::get('product', [Controller::class, 'addProduct'])->name('add.product');
+
+//route to store product in db
+Route::post('/products', [ProductController::class, 'store'])->name('store.product');
+
